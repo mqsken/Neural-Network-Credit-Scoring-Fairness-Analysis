@@ -5,6 +5,13 @@ An analysis of algorithmic bias in AI-driven credit scoring models using neural 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python Version](https://img.shields.io/badge/Python-3.9%2B-blue)
 
+## Data Source
+
+The raw data for this project is sourced from the official 2023 Home Mortgage Disclosure Act (HMDA) public dataset. Due to its large size, it is not included in this repository.
+
+1.  **Download the data** from the FFIEC official website: [https://ffiec.cfpb.gov/data-publication/dynamic-national-loan-level-dataset/2023](https://ffiec.cfpb.gov/data-publication/dynamic-national-loan-level-dataset/2023)
+2.  Place the downloaded file, named `2023_public_lar_csv.csv`, in the root directory of this project before running the preprocessing notebook.
+
 ## 1. Project Overview
 
 This project systematically evaluates the issue of algorithmic bias in various neural network models for credit scoring tasks and explores the effectiveness of eXplainable AI (XAI) techniques in identifying proxy discrimination.
